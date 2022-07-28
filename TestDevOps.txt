@@ -3,3 +3,21 @@ Main our Topic DevOps
 DevOps Working 
 DevOps Tools
 DevOps Life Cycle
+
+DevOps is Agile Model we are using here
+ Main we are working here Continous Integration,Delivery,Deploy
+ Monitoring.
+ Linux
+ Git And GitHub
+ Jenkins
+ Pipelines
+ Maven
+ Apache Tomcat
+ Ansible
+ Playbooks
+ Docker
+ Images
+ Container
+ Kubernetes
+ Deployement ANd Management
+
