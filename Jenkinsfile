@@ -16,13 +16,6 @@ node {
       
     }
 	
-	stage('Sonar Scan')
-	{
-	sh 'mvn sonar:sonar \
-       -Dsonar.host.url=http://192.168.29.29:9000 \
-       -Dsonar.login=6c12d406ec033100d2c3ef47f78660ae0daa3b87'	
-	}
-	
 	stage('Maven Compile') {
 	   sh 'mvn compile'
       
@@ -38,5 +31,17 @@ node {
 	stage('Maven Deploy') {
 	   sh 'mvn deploy'
     }
-	
+	     
+    stage('Java version') {
+	  sh 'java --version'
+    } 
+     stage('Jenkins version') {
+	  sh 'jenkins --version'
+    }
+    stage('Maven version') {
+	  sh 'mvn --version'
+    }
+     stage('Vijay') {
+	  echo " Vijay World "
+    } 	
 }
