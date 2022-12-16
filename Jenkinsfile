@@ -1,6 +1,6 @@
 node {
     stage('Gitclone') {
-	    git credentialsId: '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', url: 'https://github.com/vvijayveer/Jenkins.git'
+	    git credentialsId: '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', url: 'https://github.com/vvijayveer/DevOps.git'
 	     
     }
     stage('Maven version') {
